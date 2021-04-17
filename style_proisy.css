@@ -1,0 +1,57 @@
+#choixBG{
+    /*centre la liste des images*/
+    margin: auto;
+    width: 60%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+div{
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+.btn{
+    /*centre le bouton par rapport au reste*/
+    margin-left:37.5%;
+    width: 22.5%;
+    border-style: outset;
+    height: auto;
+    white-space: normal;
+}
+/*tourne rouge le bouton supprimer quand la sourie est au dessus*/
+.btn-delete:hover{
+    border-style: outset;
+    background-color: red;
+    color:white;
+}
+.btn-delete:active{
+    border-style: inset;
+    background-color: darkred;
+    color:white;
+}
+.btn:active{
+    border-style: inset;
+}
+img {
+    /*modifie la taille des images de maniere active afin que la presentation reste quasiment la même*/
+    width:19%;
+    height:19%;
+}
+form{
+    border-style: groove;
+    margin: auto;
+    width: 50%;
+}
+.info{
+    width: 99%;
+    margin:auto;
+    text-align:center;
+}

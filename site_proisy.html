@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts_proisy.js" defer></script>
+    <link href="style_proisy.css" rel="stylesheet">
+    
+</head>
+<body>
+    <section id="choixBG">
+        <h2>Choix du fond d'écran</h2>
+        <div id='bgList'>
+            <img src="https://www.aproposdecriture.com/wp-content/uploads/2013/08/erreur.gif" onclick='changeBG(0)'>
+            <img src="https://www.aproposdecriture.com/wp-content/uploads/2013/08/erreur.gif" onclick='changeBG(1)'>
+            <img src="https://www.aproposdecriture.com/wp-content/uploads/2013/08/erreur.gif" onclick='changeBG(2)'>
+            <img src="https://www.aproposdecriture.com/wp-content/uploads/2013/08/erreur.gif" onclick='changeBG(3)'>
+            <img src="https://www.aproposdecriture.com/wp-content/uploads/2013/08/erreur.gif" onclick='changeBG(4)'>
+        </div>
+        <input class="btn" type="button" onclick="changeIMG()" value="Vous voulez autre chose?">
+    </section>
+    <section id="post-it">
+        <form>
+            <input class="info" type="text" id='titre' placeholder='titre'>
+            <input class="info" type="text" id='note' placeholder='note'>
+            <input class="btn" type="button" id='send' value='Send' onclick="getNote()">
+        </form>
+    </section>
+    <section id="liste">
+        <p>erreur d'affichage</p>
+    </section>
+    <input class="btn" type="button" value='Changer couleurs des notes' onclick="prepareList()">
+</body>
+</html>
